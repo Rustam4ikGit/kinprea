@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.box_1 {
+    background-image: url(../img/А\ 1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1571px;
+}
+
+.div_a a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.logIn {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(54, 87, 203, 1);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px 0px rgba(72, 113, 255, 0.8);
+}
+
+.serch {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.h1 {
+    color: white;
+}
+
+.text_p {
+    color: white;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.text_p {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    cursor: pointer;
+}
+
+.movi {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-left: 30px;
+}
+
+.movi_box {
+    width: 400px;
+    height: 460px;
+}
+
+.btn_1 {
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid white;
+    width: 150px;
+    height: 40px;
+    color: black;
+}
+
+.one_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+.box_2 {
+    background-color: rgba(21, 26, 38, 1);
+    width: 100%;
+    height: 1571px;
+}
+
+.text_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.div_all {
+    color: white;
+    cursor: pointer;
+}
+
+.main_trel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.all_trel {
+    display: grid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.all_trel img {
+    width: 340px;
+    height: 240px;
+}
